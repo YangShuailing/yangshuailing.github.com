@@ -19,14 +19,26 @@
 <!--[if IE 6]>
 <link rel="stylesheet" type="text/css" href="iecss.css" />
 <![endif]-->
-</head><body>
+</head>
+<script type="text/javascript">
+function Addtext(){
+if(!document.getElementById) return;
+var sentence = document.form1.sentence.value;
+var node =document.createTextNode(" "+sentence);
+document.getElementById("p1").appendChild(node);
+document.form1.sentence.value="";
+}
+</script> 
+
+<body>
+
+
 
 <div id="main_container">
 	<div class="main_content">
     	<div id="header">
 		<!--LOGO>
         	<div class="logo"><a href="http://ssdut.dlut.edu.cn/"><img src="images/logo.jpg" alt="??????" title="Dalian University of Technology"  height="50" width="250" border="0"></a>
-	
 			</div>
 
 		< -->
@@ -52,7 +64,7 @@
             
          
  <h2>
- <p>
+ <p id="head1">
 <a id="yangshuailing" class="anchor" href="#yangshuailing" aria-hidden="true"><span class="octicon octicon-link"></span></a></h2>
 
 
@@ -201,8 +213,9 @@ Mobile: +86 188 4118 1024<br>
 Email:  <a href="mailto:yangsl1008@gmail.com">yangsl1008@gmail.com</a></p></p><end of center box-->
     
 
-	  
-  
+	  <form action ="" name ="form1">
+	  <input type ="text" name ="sentence " size="65"/>
+	  <input type ="button" value ="ADD! " onclick="Addtext();"/>
 	    </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
