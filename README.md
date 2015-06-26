@@ -1,4 +1,4 @@
-##My website | [![Build Status](https://travis-ci.org/thatarchguy/KevinLawDotInfo.svg)](https://travis-ci.org/thatarchguy/KevinLawDotInfo)
+##My website 
 ---
 Written in Jekyll
 
