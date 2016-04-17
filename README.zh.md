@@ -78,12 +78,12 @@ $ git clone git@github.com:yanghsuailing/huxblog-boilerplate.git
 
 ```
 # Site settings
-title: Hux Blog             # 你的博客网站标题
-SEOTitle: Hux Blog			# 在后面会详细谈到
+title: XXX Blog             # 你的博客网站标题
+SEOTitle: XXX Blog			# 在后面会详细谈到
 description: "Cool Blog"    # 随便说点，描述一下
 
 # SNS settings      
-github_username:     # 你的github账号
+github_username: XXXX@github.com   # 你的github账号
 weibo_username:       # 你的微博账号，底部链接会自动更新的。
 
 # Build settings
@@ -104,7 +104,7 @@ layout:     post
 title:      "Hello 2015"
 subtitle:   "Hello World, Hello Blog"
 date:       2015-01-29 12:00:00
-author:     "ysl"
+author:     "XXX"
 header-img: "img/post-bg-2015.jpg"
 tags:
     - Life
@@ -225,7 +225,7 @@ ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名
 
 #### Customization
 
-如果你喜欢折腾，你可以去自定义我的这个模板的 code，[Grunt](gruntjs.com)已经为你准备好了。（感谢 Clean Blog）
+<!-- 如果你喜欢折腾，你可以去自定义我的这个模板的 code，[Grunt](gruntjs.com)已经为你准备好了。（感谢 Clean Blog） -->
 
 JavaScript 的压缩混淆、Less 的编译、Apache 2.0 许可通告的添加与 watch 代码改动，这些任务都揽括其中。简单的在命令行中输入 `grunt` 就可以执行默认任务来帮你构建文件了。如果你想搞一搞 JavaScript 或 Less 的话，`grunt watch` 会帮助到你的。
 
@@ -248,9 +248,9 @@ JavaScript 的压缩混淆、Less 的编译、Apache 2.0 许可通告的添加�
 
 ## 致谢
 
-1. 这个模板是从这里[IronSummitMedia/startbootstrap-clean-blog-jekyll](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll)  fork 的。 感谢这个作者
+1. 这个模板是从这里[IronSummitMedia/startbootstrap-clean-blog-jekyll](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll) 和 huxpro.github.io 中 fork 的。 
+   感谢他们
 2. 感谢[@BrucZhaoR](https://github.com/BruceZhaoR)的中文翻译 
-
 3. 感谢 Jekyll、Github Pages 和 Bootstrap!
 
 

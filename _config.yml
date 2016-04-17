@@ -69,7 +69,7 @@ duoshuo_share: true                     # set to false if you want to use Commen
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，我想去看看。"
+sidebar-about-description: "希望还是要有的，万一成功了呢。"
 sidebar-avatar: /img/avatar-ysl.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -86,8 +86,8 @@ friends: [
         title: "前端外刊评论",
         href: "http://qianduan.guru/"
     },{
-        title: "天镶的博客",
-        href: "http://lingyu.wang/"
+        title: "金老师的主页",
+        href: "http://naigao.github.io/"
     },{
         title: "Luke的自留地",
         href: "http://hmqk1995.github.io"
@@ -109,5 +109,9 @@ friends: [
     },{
         title: "前端神盾局",
         href: "http://wepiaofei.github.io/blog/"
+    },{
+        title: "Lost in code",
+        href: "http://hujunyu1222.github.io/"
+
     }
 ]
