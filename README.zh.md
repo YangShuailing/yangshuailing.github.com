@@ -24,7 +24,7 @@
 我的博客仓库——`huxpro.github.io`，是经常修改的，而且还会有人乱提交代码，因此给大家做了一个稳定版的模板。大家可以直接fork模板——`huxblog-boilerplate`,要改的地方我都说明了。或者可以直接下载zip到本地自己去修改。
 
 ```
-$ git clone git@github.com:yanghsuailing/huxblog-boilerplate.git
+$ git clone git@github.com:YangShuailing/yangshuailing.github.com.git
 ```
  
 
@@ -115,7 +115,7 @@ tags:
 #### SideBar
 
 看右边:
-<!-- ![](http://huangxuan.me/img/blog-sidebar.jpg) -->
+![](http://huangxuan.me/img/blog-sidebar.jpg)
 
 设置是在 `_config.yml`文件里面的`Sidebar settings`那块。
 ```

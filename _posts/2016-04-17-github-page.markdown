@@ -81,22 +81,22 @@ pygments的安装需要python环境的支持，具体可以去[pygments官网](h
 
 可能生成的目录结构会有点不一样，但是基本是一样的大致的用途引用自一个简书作者[原文](http://www.jianshu.com/p/609e1197754c)：
 
-- /_layouts：用于存放模板的文件夹。_layouts中的模板一般指向了_includes/themes中的模板。目录是用来存放模板的，在这里你可以定义页面中不同的头部和底部。
-- /_posts：用于存放博客文章的文件夹。 _posts中的数据文档，通过注入_layouts定义的模板，通过jekyll --server最终生成的静态页面在_sites目录。目录是用来存放你的文章的，一般以日期的形式书写标题。
+- layouts：用于存放模板的文件夹。_layouts中的模板一般指向了_includes/themes中的模板。目录是用来存放模板的，在这里你可以定义页面中不同的头部和底部。
+- posts：用于存放博客文章的文件夹。 _posts中的数据文档，通过注入_layouts定义的模板，通过jekyll --server最终生成的静态页面在_sites目录。目录是用来存放你的文章的，一般以日期的形式书写标题。
 - css：存放博客所用css的文件夹,比如主题文件以及高亮文件都是放在此处的。
-- /_coinfig.yml：jekyll的配置文件,站点的全局变量在_config.yml中定义，用site.访问；页面的变量在YAML Front Matter中定义，用page.访问，更多的模板变量可参考模板数据。
+- coinfig.yml：jekyll的配置文件,站点的全局变量在_config.yml中定义，用site.访问；页面的变量在YAML Front Matter中定义，用page.访问，更多的模板变量可参考模板数据。
 - assets: 渲染页面的CSS和JS文档在assets/themes中
 - index.html：你的页面首页。
 - includes: 用于存放一些固定的HTML代码段，文件为.html格式，可以在模板中通过liquid标签引入，常用来在各个模板中复用如 导航条、标签栏、侧边栏之类的在每个页面上都一样不变的内容，需要注意的是，这个代码段也可以是未被编译的，也就是说也可以使用liquid标签放在这些代码段中。
-1) /_includes/JB中有一些常用的工具，用于列表显示、评论等；
-2) /_includes/themes中可参看主题的相关html文档。
-3) /_includes/themes中的主题一般包含default.html、post.html和page.html三个文档。default.html定义了网站的最上层框架（模板），post.html和page.html是其子框架（模板）。
-4) 生成好的html子页面通过default.html的{{ content }}变量调用，生成整个页面。
- 
-    
+    1) includes/JB中有一些常用的工具，用于列表显示、评论等；
+    2) includes/themes中可参看主题的相关html文档。
+    3) includes/themes中的主题一般包含default.html、post.html和page.html三个文档。default.html定义了网站的最上层框架（模板），post.html和page.html是其子框架（模板）。
+    4) 生成好的html子页面通过default.html的`content`变量调用，生成整个页面。
+<!--  -->
+<!--  -->
 
 
-接着你就可以通过访问 *127.0.0.1:4000* 或者*http://localhost:4000* 看到生成的博客主页面了，接下来可以推荐的一个[jekyll的主题站
+接着你就可以通过访问*127.0.0.1:4000*或者*http://localhost:4000* ,看成的博客主页面了，接下来可以推荐的一个[jekyll的主题站
 ](http://jekyllthemes.org/)。
 
 
@@ -104,11 +104,17 @@ pygments的安装需要python环境的支持，具体可以去[pygments官网](h
 
 Markdown是一种非常方便的标记语言，能够用简单的标记语法，让普通的文本具有一定的格式。需要的可以看一下我的blog，[markdown语法](http://yangshuailing.github.io/2016/04/17/markdown-notes/)学起来很快。
 
-
-
 # 后记
 
-第一篇博客，写的很多问题，不过至少已经磕磕碰碰地搭建了自己的博客，本篇主要记录一下大致的过程，以后我会慢慢摸索，包括**选择自己的博客风格**，**语法高亮**，**评论系统**等等，还有很多路要走，所以我也会继续更新本文。
+我也是刚开始学习写blog，把自己的学习历程记录下来，希望对别人有所帮助。
+感谢：
+- [Hux](http://huangxuan.me/)
+- [小胡](http://hujunyu1222.github.io/)
+
+
+
+
+
 
 
 
