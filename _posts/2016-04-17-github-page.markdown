@@ -110,6 +110,7 @@ Markdown是一种非常方便的标记语言，能够用简单的标记语法，
 感谢：
 - [Hux](http://huangxuan.me/)
 - [小胡](http://hujunyu1222.github.io/)
+- [简书](http://www.jianshu.com/)
 
 
 
