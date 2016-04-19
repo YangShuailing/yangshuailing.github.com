@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "搭建个人独立博客"
-date:   2016-04-11 21:57:00 +0800
+title: "使用GIthub搭建个人博客"
+date:   2016-04-10  
 categories: [git-pages, jekyll, markdown]
 tags:
     - blog
