@@ -95,5 +95,15 @@ friends: [
         title: "小胡的Blog",
         href: "http://hujunyu1222.github.io/"
 
+    },{
+        title: "苍老师的主页",
+        href: "http://blog.zhangcangqiong.cn/"
+
+    },{
+        title: "东东的主页",
+        href: "http://www.xheldon.com/"
+
     }
+    
+
 ]

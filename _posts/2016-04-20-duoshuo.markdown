@@ -1,0 +1,41 @@
+---
+layout: post
+title: "留给时间"
+date:   2016-04-20  
+author:     "Ysl"
+categories: [git-pages, jekyll, markdown]
+header-img: "img/blog-ds-bg.jpg"
+tags:
+    - 多说
+    - 评论
+---
+[toc]
+ 
+# 前言
+我使用的Jekyll是一个简单的静态博客框架，是不支持动态内容的。也有在此技术上增强的框架[jekyllbootstrap](http://jekyllbootstrap.com/blog)默认就有主题、评论等增强功能,不过它默认的评论系统是disqus（国外比较强大的一个评论系统），毕竟是国外的，对于本地化的效果不是很好，比如QQ、微博分享及账号都不支持，于是我就选择了多说评论系统。
+ 
+废话不多说，开撸。
+
+# 1. 注册账号
+进入[多说](http://duoshuo.com/)主页,点击`我要安装`
+![]({{ site.BASE_PATH }}/img/in-post/post-ds/ds1.jpg)
+
+# 2. 填写信息
+使用qq/微博登录后，填写信息如下：
+![]({{ site.BASE_PATH }}/img/in-post/post-ds/ds2.jpg)
+![]({{ site.BASE_PATH }}/img/in-post/post-ds/ds3.jpg)
+# 3. 粘贴代码
+将多说的通用代码贴到`_layouts/default.html`文件中的body标签之间，至于放到哪个div下，自己决定 。
+![]({{ site.BASE_PATH }}/img/in-post/post-ds/ds4.jpg)
+这段代码有4个地方要填
+`data-thread-key`填上`{{ page.id }}`
+`data-title` 填上`{{ page.title }}`
+`data-url` `填上` `your web site/{{ page.url }}`
+short_name 注册多说账号的时候让你填的二级短域名
+![]({{ site.BASE_PATH }}/img/in-post/post-ds/ds5.jpg)
+# 4. 多说控制平台
+在多说的控制平台中，可以看到评论及文章，以及其数量的统计。
+![]({{ site.BASE_PATH }}/img/in-post/post-ds/ds6.jpg)
+
+# 5 后记
+更多的多说设置可以参考[havee](http://havee.me/internet/2013-07/add-duoshuo-commemt-system-into-jekyll.html)
