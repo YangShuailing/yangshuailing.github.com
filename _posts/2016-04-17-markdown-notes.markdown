@@ -2,7 +2,7 @@
 layout: post
 title: "Markdown 学习笔记"
 date: 2016-04-17
-author:     "Yang"
+author:     "Ysl"
 tags:
     - markdown
     - sublime

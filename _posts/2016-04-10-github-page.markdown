@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "使用GIthub搭建个人博客"
+title: "使用Github搭建个人博客"
 date:   2016-04-10  
+author:     "Ysl"
 categories: [git-pages, jekyll, markdown]
 tags:
     - blog
@@ -111,7 +112,7 @@ Markdown是一种非常方便的标记语言，能够用简单的标记语法，
 - [Hux](http://huangxuan.me/)
 - [小胡](http://hujunyu1222.github.io/)
 - [简书](http://www.jianshu.com/)
-
+- [模板](http://www.zhanxin.info/themes.html)
 
 
 
