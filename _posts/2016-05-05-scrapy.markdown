@@ -1,0 +1,62 @@
+---
+layout: post
+title: "Scrapy安装配置"
+date: 2016-05-05
+author:  "Ysl"
+categories: [git-pages, jekyll, markdown]
+header-img: "img/about-bg.jpg"
+tags:
+    - Python
+    - Scrapy
+    - 爬虫
+---
+# 序言
+本人比较喜欢用Kindle看电子书，发现搜索Mobi格式的电子书比较麻烦，以前一直使用新浪微盘下载，不过最近听说要收费了(什么都要收费。。)，于是萌生了自己写爬虫爬电子书的想法。在安装Scrapy需要涉及很多包，本人也走了不少弯路，总结一下希望能帮助到Pythoner。
+
+# 安装Python  
+安装配置过程不多说了，[下载python](https://www.python.org/downloads/),然后[设置环境变量](http://jingyan.baidu.com/article/48206aeafdcf2a216ad6b316.html)。
+配置好了之后，在命令行中输入 python –version，如果没有提示错误，则安装成功
+![]({{ site.BASE_PATH }}/img/in-post/post-scrapy/p1.jpg)
+
+# 安装 Scrapy 包  
+安装好Python后，就可以开始安装scrapy包了，按照下面的顺序从下往上来安装。
+![]({{ site.BASE_PATH }}/img/in-post/post-scrapy/p2.png)
+
+## 1.安装pywin32  
+在windows下，必须安装pywin32，[Pywin32下载地址](http://sourceforge.net/projects/pywin32/)，选择对应版本安装即可(注意要与安装的python版本对应)。在python环境下运行以下命令，没有报错，即安装成功。
+    
+    import win32com
+
+## 2.安装 twisted  
+在其官网的下载页面中[http://twistedmatrix.com/trac/wiki/Downloads](http://twistedmatrix.com/trac/wiki/Downloads)下载安装依赖包。zope.interface、pyopenssl、twisted。  
+打开cmd，进入python，输入以下命令，没有报错，即安装成功。
+
+    import zope.interface
+    import OpenSSL
+
+## 3.安装lxml  
+执行如下命令
+
+    pip install lxml
+
+注意：如果提示错误Microsoft Visual C++库没安装，则在[http://www.microsoft.com/en-us/download/details.aspx?id=44266](http://www.microsoft.com/en-us/download/details.aspx?id=44266)下载支持的库。
+
+## 4.安装Scrapy  
+执行命令:
+
+    pip install Scrapy
+
+如果提示入下，就说明安装成功了。  
+![]({{ site.BASE_PATH }}/img/in-post/post-scrapy/p3.jpg)
+
+# 创建scrapy的工程
+
+在空目录下按住Shift键右击，选择“在此处打开命令窗口”，输入一下命令：
+ 
+    scrapy startproject tutorial
+
+然后PyCharm自动创建scarpy的配置文件了。详细关于Scrapy框架的介绍，请参考[http://www.jb51.net/article/57183.htm](http://www.jb51.net/article/57183.htm)
+
+# 后记
+
+我也是刚刚学习python，还有很多坑要填，有疏忽和错误的地方欢迎指出。
