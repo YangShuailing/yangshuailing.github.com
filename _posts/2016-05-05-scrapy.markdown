@@ -55,7 +55,7 @@ tags:
  
     scrapy startproject tutorial
 
-然后PyCharm自动创建scarpy的配置文件了。详细关于Scrapy框架的介绍，请参考[http://www.jb51.net/article/57183.htm](http://www.jb51.net/article/57183.htm)
+然后PyCharm自动创建scarpy的配置文件了。详细关于Scrapy框架的介绍，请参考[http://www.jb51.net/article/57183.htm](http://www.jb51.net/article/57183.htm)和[http://www.ituring.com.cn/article/114408](http://www.ituring.com.cn/article/114408)
 
 # 后记
 
