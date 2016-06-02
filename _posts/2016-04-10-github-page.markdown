@@ -49,7 +49,7 @@ Jekyll是一种简单的、适用于博客的、静态网站生成引擎。它�
 
 jekyll本地环境搭建：
 
-Jekyll是基于**Ruby**环境的，下载最新的RubyInstaller并安装(我下载的是rubyinstaller-1.9.3-p194.exe)，设置环境变量，path中配置C:\Ruby193\bin目录，然后在命令行终端下输入gem update --system来升级gem；
+Jekyll是基于**Ruby**环境的，下载最新的RubyInstaller并安装(我下载的是rubyinstaller-2.3.0.exe)，设置环境变量，path中配置C:\Ruby23\bin目录，然后在命令行终端下输入gem update --system来升级gem；
 
 下载最新的DevKit，DevKit是windows平台下编译和使用本地C/C++扩展包的工具。它就是用来模拟Linux平台下的make,gcc,sh来进行编译。但是这个方法目前仅支持通过RubyInstaller安装的Ruby，并双击运行解压到C:\DevKit。然后打开终端cmd，输入下列命令进行安装：
 
