@@ -44,7 +44,7 @@ tags:
 可以创建行内公式，例如：$\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
 或者块级公式 $$ x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} 。
 点击保存后的效果：
-![]({{ site.BASE_PATH }}/img/in-post/post-wiz/p4.jpg)
+![]({{ site.BASE_PATH }}/img/in-post/post-wiz/p2.jpg)
 
 2.流程图
 
@@ -61,7 +61,7 @@ cond(no)->sub1(right)->op1
 ```
 
 保存后效果：
-![]({{ site.BASE_PATH }}/img/in-post/post-wiz/p5.jpg)
+![]({{ site.BASE_PATH }}/img/in-post/post-wiz/p3.jpg)
 注意：
 1) 关键词（start、end、operation、subroutine、condition和inputoutput）后的冒号后要紧跟一个空格。
 2) 使用->来连接两个元素，对于condition类型，有yes和no两个分支，如示例中的cond(yes)和cond(no)。
@@ -76,7 +76,7 @@ Bob-->Alice: I am good thanks!
 ```
 保存后效果：
 
-![]({{ site.BASE_PATH }}/img/in-post/post-wiz/p6.jpg)
+![]({{ site.BASE_PATH }}/img/in-post/post-wiz/p4.jpg)
 
 更多关于[时序图的语法说明](http://bramp.github.io/js-sequence-diagrams/)。
 
@@ -84,6 +84,6 @@ Bob-->Alice: I am good thanks!
 
 设置一边编辑一边预览模式
 
-![]({{ site.BASE_PATH }}/img/in-post/post-wiz/p3.jpg)
+![]({{ site.BASE_PATH }}/img/in-post/post-wiz/p5.jpg)
 
 更多细节参见[为知笔记深度体验](http://test.smzdm.com/pingce/p/1850/)，讲的很详细。
