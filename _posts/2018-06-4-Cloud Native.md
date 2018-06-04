@@ -1,15 +1,17 @@
 ---
 layout: post
-title: "# 安利一篇云原生项目整理 Awesome Cloud Native![](https://ws1.sinaimg.cn/large/00704eQkgy1frzchbek3ej300w00wgle.jpg)
+title: "# 安利一篇云原生项目整理 Awesome Cloud Native
 date:   2018-06-04  
 author:     "Ysl"
 categories: [Cloud Native, Awesome]
 header-img: "img/cloud-native.png"
 tags:
-    - 多说
-    - 评论
---
+    - 云原生
+    - Cloud Native
+    - Awesome
 
+--
+###前言
 - 云原生大神[Jimmy Song](https://jimmysong.io/)耗时九个月苦心整理。小白拿来学习啦 ：）
 - A curated list of awesome cloud native architectures, tools and  softwares. Inspired by **[awesome-go](https://github.com/avelino/awesome-go)**.
 
